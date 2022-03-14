@@ -1,0 +1,272 @@
+body{
+	background-image : url("../Images/D03.jpg");
+	margin-left: 38px;
+}
+
+.logo{
+	margin-top: -90px; 
+	margin-left: 0%; 
+}
+
+h1.pageheader{
+	font-family: Adamina;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 42px;
+	color: black;
+}
+
+hr.line1{
+	border: 1px solid black;
+	width: 1500px;
+	margin-right: 160px;
+}
+
+.line2{
+	border-left: 2px solid black;
+	height: 800px;
+	position: absolute;
+	left: 13%;
+	margin-left: -5px;
+	top: 0;
+}
+
+.title{
+	font-size: 40px;
+	margin-left: 250px;
+	margin-top: 60px;
+}
+
+#about{
+	font-size: 17px;
+	text-align: justify!important;
+	padding-right: 680px;
+    line-height: 1.7;
+    letter-spacing: 0.9px;  
+	max-width: 800px;
+}
+
+.footer {
+	background: black;
+	width: 1900px;
+	height:180px;
+	position:relative;
+	padding-left: 110px;
+	padding-right: 25px;
+	margin-left: -35px;
+	margin-top: 90px;   
+}
+
+.footer-content {
+	color: silver;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 25px;
+	display: flex;
+}
+
+.footer-section-links{	
+	margin-left: 125px;
+}
+
+.Contact-Us{
+	margin-left: 125px;
+}
+
+.Barcode{
+	margin-left: 200px;
+	margin-top: 25px;
+}
+
+.Social{ 
+    margin-left: 5%;
+	margin-top: 25px;
+	opacity: 0.65;
+	transition: 1.0s;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+  
+.fa:hover {
+	  opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+.youtube:hover {
+	opacity: 0.9;
+}
+.twitter:hover {
+	opacity: 0.9;	
+}
+.instagram:hover {
+	opacity: 0.9;	
+}
+
+.slideshow-container {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: -380px;
+  transition-duration: 60s ease;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 6s;
+  transition-duration: 50s;
+}
+
+@keyframes fade {
+  from {opacity: 0.01} 
+  to {opacity: 1}
+}
+
+.text1 {
+ 	animation: fadeEffect 3s;
+  	font-size: 17px;
+	text-align: justify!important;
+	padding-right: 680px;
+    line-height: 1.7;
+    letter-spacing: 0.9px;  
+	max-width: 800px;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#slide{
+	border:5px solid #555;
+}
+
+.hide{
+	display: none;
+}
+ul.tablinks li.active {
+	color: yellow;
+	background: black;
+}
+ul.tablinks {
+	margin: -20px 0 0 20px;
+	padding: 0;
+	cursor: pointer;
+}
+ul.tablinks li { 
+	display: inline;
+	padding: 5px 20px;
+	background: #FAF6F5  ;
+	font-weight: bold;
+	box-shadow: 3px 2px 3px black;
+}
+.tabcontents { 
+	animation: fadeEffect 3s;
+	margin: 10px;
+	padding: 0 10px;
+	font-size: 17px;
+	text-align: justify!important;
+	padding-right: 680px;
+    line-height: 1.7;
+    letter-spacing: 0.9px;  
+	max-width: 900px;
+}
+.container{
+	margin: 3px 0 0 230px;
+}
+
+.search-box{
+	position: absolute;
+	top:105px;
+	left:20%;
+	background: black;
+	height: 18px;
+	width: 400px;
+	border-radius: 70px;
+	padding:10px;
+	animation: fadeEffect 1s;
+}
+
+.search-btn{
+	color: yellow;
+	float:right;
+	width:25px;
+	height:25px;
+	border-radius:50px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+}
+
+.search-txt{
+	border:none;
+	background:none;
+	outline:none;
+	float:left;
+	padding:0;
+	color: white;
+	font-size:16px;
+}
+ 
+.search-box:hover > .search-btn{
+	background: yellow;
+	color: black;
+}
+
+.log{
+	margin-left: 1200px;
+	margin-top: -50px;
+	
+}
+#asd{
+	height: 35px;
+	border-radius: 70px;
+	font-size: 15px;
+	background: black ;
+	color: yellow;
+	animation: fadeEffect 1s;
+	box-shadow: 3px 2px 3px black;
+}
+#img{
+	margin-top: -90px;
+	margin-left: 1420px;
+}
+
+.menu{
+	margin: 10px;
+	padding: 12px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.sidebar{
+	margin-top: -10px;
+	position: fixed;
+	left: 0;
+	width: 200px;
+	height: 600px;
+	background: black;
+}
+.sidebar ul a{
+	display: block;
+	height: 55px;
+	width: 100%;
+	line-height:20px;
+	font-size: 25px;
+	color: yellow;
+	padding-left: 20px;
+	padding-top:6px;
+	transition: 0.4s;
+	text-decoration: none;
+}
+ul li:hover a{
+	padding-left: 50px;
+}
+ 
