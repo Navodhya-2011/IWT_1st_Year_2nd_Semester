@@ -1,0 +1,24 @@
+//Create a database
+    CREATE DATABASE contactus;
+	
+//Use database in phpMyAdmin
+    USE contactus;	
+	
+//Create a table
+    CREATE TABLE detofcontact(
+	User_id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	E-mail varchar(50)NOT NULL,
+	Name varchar(100) NOT NULL,
+	Address varchar(100) NOT NULL,
+	Contact_no int(20) NOT NULL,
+	Message varchar(1000)NOT NULL);
+
+//User details
+   sachin@gamil.com
+   Sachin Vimu
+   0357474449
+   410/2A Pahala Imbulgoda Dakuna
+   This is my first web page 
+	
+	
+
