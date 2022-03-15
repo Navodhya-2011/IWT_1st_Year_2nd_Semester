@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title> Official Event Photography </title>
+	<link rel = "stylesheet" href = "styles/Category.css">
+	<script src = "js/Category.js"></script>
+	<script src="https://kit.fontawesome.com/84641544a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<h1 class = "pageheader"><center>Dreamer Studios</center></h1>
+	<img class = "logo" src = "images/logo.PNG" height = "200px" width="200px" alt = "Logo Image">
+	
+	<div class = "search-box">
+		<input class = "search-txt" type = "text" name = "" placeholder="Type to search">
+		<a class = "search-btn" href = "#">
+			<i class="fas fa-search"></i>
+		</a>
+	</div>
+	
+	<div class = "log">
+		<a href = "tute/Login.html"><button id = "asd" type = "button" style ="width:100px">Login</button></a>
+            <a href = "Registration.html"><button id = "asd" type = "button" style ="width:100px">Sign up</button></a>
+		&nbsp
+	</div>
+	<div>
+		<img id = "img" src = "Images/avatar.png" width = "100px" height = "100px" alt = "Avatar image">
+	</div>
+	
+	<hr class = "line1">
+	<div class = "line2"></div>
+	
+	<div class="sidebar">
+	  <ul class = "menu">
+		<li><a href = "home.html">Home</a></li>
+              <li><a href = "About Us Page.html">About Us</a></li>
+              <li><a href = "Registration.html">Registration</a></li>
+              <li><a href = "Contactus.html">Contact Us</a></li>
+              <li><a href = "Category.html">Category</a></li>
+              <li><a href = "Advertisment.html">Product & Services</a></li>
+              <li><a href = "Account.html">Account</a></li>
+	  </ul>
+	</div>
+	
+	<div>
+		<div class = "images">
+			<div>
+			<img id= "a1" src = "images/Birthday/B03.JPG" width = "250px">
+				<br><a href = "birthday.html"><button class = "category" id= "btn1" type = "button">Birthday</button></a>
+			</div>
+			<div>
+			<img id= "a2" src = "images/Wedding/W05.JPG" width = "250px">
+				<br><a href = "Wedding.html"><button class = "category" id= "btn2" type = "button">Wedding</button></a>
+			</div>
+			<div>
+			<img id= "a3" src = "images/Advertising/A08.JPG" width = "250px">
+				<br><a href = "Advertisment.html"><button class = "category" id= "btn3"  type = "button">Advertising</a></button>
+			</div>
+			<br><br><br><br><br><br><br>
+			<div>
+			<img id= "a4" src = "images/Entertainment/En07.JPG" width = "250px">
+				<br><a href = "Entertainment.html"><button class = "category" id= "btn4"  type = "button">Entertainment</a></button>
+			</div>
+			<div>
+			<img id= "a5" src = "images/Educational/E07.JPG" width = "250px">
+				<br><a href = "Educational.html"><button class = "category" id= "btn5"  type = "button">Educational</a></button>
+			</div>
+		</div>
+		
+		<br><br><br><br>
+	</div>
+			
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img id="slide" src="images/Q1.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="images/Q2.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="images/Q3.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="images/Q4.JPEG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img id="slide" src="images/Q6.JPG" style="width:400px">
+		</div>
+		<!---
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Q6.JPG" style="width:400px">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Wedding/W03.JPG" style="width:300px">
+		</div>
+		--->
+	</div>
+
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("mySlides fade");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+	  slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+			slides[slideIndex-1].style.display = "block";  
+			setTimeout(showSlides, 5000); 
+	}
+	</script>
+	
+	<!--Footer-->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section-about">
+				<h3 class="logo-text"> <span></span> About Us</h3>
+				<p>
+					Dream Journey Tours is the best way to</br>experience 
+					tour in wild life safari journey. </br>Join with us!
+				</p>
+			</div>
+			<div class="footer-section-links">
+				<h3>Reach Us</h3>
+				<p>No 2/48,</br>Jethawane Road,</br>Colombo 02</p>
+			</div>
+			<div class = "Contact-Us">
+				<h3>Contact Us</h3>
+				<p>Dreamergraphy@gmail.lk</br>0779945268 - Pasindu</br>0714593628 - Navodhya</p>
+			</div>
+			<div class = "Barcode">
+				<image src = "images/barcode.JPG" alt = "Barcode Image" width= "80" height= "80">
+			</div>
+			<div class = "Social">
+				<a href = "https://www.facebook.com/" >
+					<image src ="images/fb.JPG" class = "facebook" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.twitter.com/">
+					<image src ="images/twitter.JPG" class = "twitter" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.instagram.com/">
+					<image src ="images/inster.JPG" class = "instagram" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.youtube.com/">
+					<image src ="images/youtube.JPG" class = "youtube" width= "60" height= "60";>
+				</a>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>

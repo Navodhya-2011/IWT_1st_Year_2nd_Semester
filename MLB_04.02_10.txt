@@ -1,0 +1,41 @@
+*Project group ID - MLB_04.02_10
+*Batch No - Y1S2 04.02
+*Topic - Event Photography Management System
+*Project link - 
+
+*Group Member Details-
+
+	Student ID 	Student Name 		Email 				Contact Number
+
+	IT20297640	Piyasinghe H.K.N.Y 	it20297640@my.sliit.lk 		0705606156
+	IT20628390	Mudannayaka M.S.V.M 	it20628390@my.sliit.lk 		0762838883
+	IT20630416	Premathilaka.R.G.U.K 	it20630416@my.sliit.lk 		0750855526
+	IT20628468	Padukka P.D.T.H 	it20628468@my.sliit.lk 		0719444615
+	IT20606756	Senanayake P.M. 	it20606756@my.sliit.lk 		0779915276
+
+* Implemented Functions-
+
+~~~IT20297640-Piyasinghe H.K.N.Y
+	1.Home Page
+	2.Login Page
+
+
+~~~IT20628390-Mudannayaka M.S.V.M
+	1.Contact Us Page
+
+
+~~~IT20630416-Premathilaka.R.G.U.K
+	1.Product & Service Page
+		05 pages of each event services.
+
+
+~~~IT20628468-Padukka P.D.T.H
+	1.Registration Page
+
+
+~~~IT20606756-Senanayake P.M.
+	1.About Us page
+	1.Category Page
+	3.User Account Page 
+
+#They also did the database and connectivity of the relevant pages above.
