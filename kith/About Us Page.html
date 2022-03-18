@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Official Event Photography </title>
+	<link rel = "stylesheet" href = "styles/About Us.css">
+	<script src = "js/About Us.js"></script>
+	<script src="https://kit.fontawesome.com/84641544a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<h1 class = "pageheader"><center>Dreamer Studios</center></h1>
+	<img class = "logo" src = "Images/logo.PNG" height = "125px"  alt = "Logo Image">
+		
+	<div class = "search-box">
+		<input class = "search-txt" type = "text" name = "" placeholder="Type to search">
+		<a class = "search-btn" href = "#">
+			<i class="fas fa-search"></i>
+		</a>
+	</div>
+	<div class = "log">
+		<a href = "#"><button id = "asd" type = "button" style ="width:100px">Login</button></a>
+		<a href = "#"><button id = "asd" type = "button" style ="width:100px">Sign up</button></a>
+		&nbsp
+	</div>
+	<div>
+		<img id = "img" src = "Images/avatar.png" width = "100px" height = "100px" alt = "Avatar image">
+	</div>
+	
+	<hr class = "line1">
+	<div class = "line2"></div>
+	
+	<div class="sidebar">
+	  <ul class = "menu">
+		<li><a href = "#">Home</a></li>
+		<li><a href = "#">About Us</a></li>
+		<li><a href = "#">Registration</a></li>
+		<li><a href = "#">Contact Us</a></li>
+		<li><a href = "Category.html">Category</a></li>
+		<li><a href = "#">Product & Services</a></li>
+		<li><a href = "#">Account</a></li>
+	  </ul>
+	</div>
+		
+	<div>
+		<div class = "title">
+			About Dreamer.....
+			<p id = "about">The Dreamer is based on over 05 years of experience,focusing solely on customer's needs.Startimg
+			professionally,we are now committed to providing our service throughout the island.We have a wide and efficient
+			staff with the aim of providing the highest quality service to the customer.Whether you are looking for Professional
+			Photo, Video, Transmission or Great Meaning, we are very budget-minded and can work within the factors given by our
+			clients.</br>
+			&nbsp &nbsp We are proud to be associated with you with a high level of responsibility and service of your choice.</p>
+		</br>
+		</div>
+		<div class = "container">
+			<ul class = "tablinks"> 
+				<li id = "tab-1" onclick= "showTab(1)" class = "active">Vission</li>
+				<li id = "tab-2" onclick= "showTab(2)">Mission</li>
+			</ul>
+				
+			<div class = "tabcontents">
+				<div id= "tabcontent-1" class = "show">
+					<p>Making memories, telling your stories through quality professional photography lasting for generations to come.</p>
+				</div>
+				<div id = "tabcontent-2" class = "hide">
+					<p>Our mission is to provide outstanding service, an enjoyable experience in front of the camera as well as photographs you will love.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Wedding/W08.JPG" style="width:500px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Birthday/B03.JPG" style="width:500px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Educational/E07.JPG" style="width:500px">
+		</div>
+
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Entertainment/En10.JPG" style="width:500px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Wedding/W02.JPG" style="width:500px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Birthday/B07.JPG" style="width:500px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Wedding/W07.JPG" style="width:500px">
+		</div>
+
+	</div>
+
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("mySlides fade");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+	  slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+			slides[slideIndex-1].style.display = "block";  
+			setTimeout(showSlides, 5000); 
+	}
+	</script>
+	
+	<!--Footer-->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section-about">
+				<h3 class="logo-text"> <span></span> About Us</h3>
+				<p>
+					Create a dream, make a dream come true,</br> make dreams a memory without forgetting.</br>Join with us!
+				</p>
+			</div>
+			<div class="footer-section-links">
+				<h3>Reach Us</h3>
+				<p>No 2/48,</br>Jethawane Road,</br>Colombo 02</p>
+			</div>
+			<div class = "Contact-Us">
+				<h3>Contact Us</h3>
+				<p>Dreamergraphy@gmail.lk</br>0779945268 - Pasindu</br>0714593628 - Navodhya</p>
+			</div>
+			<div class = "Barcode">
+				<image src = "Images/barcode.JPG" alt = "Barcode Image" width= "80" height= "80">
+			</div>
+			<div class = "Social">
+				<a href = "https://www.facebook.com/" >
+					<image src ="Images/fb.JPG" class = "facebook" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.twitter.com/">
+					<image src ="Images/twitter.JPG" class = "twitter" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.instagram.com/">
+					<image src ="Images/inster.JPG" class = "instagram" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.youtube.com/">
+					<image src ="Images/youtube.JPG" class = "youtube" width= "60" height= "60";>
+				</a>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>

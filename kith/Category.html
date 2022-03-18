@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Official Event Photography </title>
+	<link rel = "stylesheet" href = "styles/Category.css">
+	<script src = "js/Category.js"></script>
+	<script src="https://kit.fontawesome.com/84641544a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<h1 class = "pageheader"><center>Dreamer Studios</center></h1>
+	<img class = "logo" src = "Images/logo.PNG" height = "125px"  alt = "Logo Image">
+	
+	<div class = "search-box">
+		<input class = "search-txt" type = "text" name = "" placeholder="Type to search">
+		<a class = "search-btn" href = "#">
+			<i class="fas fa-search"></i>
+		</a>
+	</div>
+	
+	<div class = "log">
+		<a href = "#"><button id = "asd" type = "button" style ="width:100px">Login</button></a>
+		<a href = "#"><button id = "asd" type = "button" style ="width:100px">Sign up</button></a>
+		&nbsp
+	</div>
+	<div>
+		<img id = "img" src = "Images/avatar.png" width = "100px" height = "100px" alt = "Avatar image">
+	</div>
+	
+	<hr class = "line1">
+	<div class = "line2"></div>
+	
+	<div class="sidebar">
+	  <ul class = "menu">
+		<li><a href = "#">Home</a></li>
+		<li><a href = "About Us Page.html">About Us</a></li>
+		<li><a href = "#">Registration</a></li>
+		<li><a href = "#">Contact Us</a></li>
+		<li><a href = "#">Category</a></li>
+		<li><a href = "#">Product & Services</a></li>
+		<li><a href = "#">Account</a></li>
+	  </ul>
+	</div>
+	
+	<div>
+		<div class = "images">
+			<div>
+			<img id= "a1" src = "Images/Birthday/B03.JPG" width = "250px">
+				<br><button class = "category" id= "btn1" a href = "#" type = "button">Birthday</a></button>
+			</div>
+			<div>
+			<img id= "a2" src = "Images/Wedding/W05.JPG" width = "250px">
+				<br><a href = "Wedding.html"><button class = "category" id= "btn2" type = "button">Wedding</button></a>
+			</div>
+			<div>
+			<img id= "a3" src = "Images/Advertising/A08.JPG" width = "250px">
+				<br><button class = "category" id= "btn3" a href = "#" type = "button">Advertising</a></button>
+			</div>
+			<br><br><br><br><br><br><br>
+			<div>
+			<img id= "a4" src = "Images/Entertainment/En07.JPG" width = "250px">
+				<br><button class = "category" id= "btn4" a href = "#" type = "button">Entertainment</a></button>
+			</div>
+			<div>
+			<img id= "a5" src = "Images/Educational/E07.JPG" width = "250px">
+				<br><button class = "category" id= "btn5" a href = "#" type = "button">Educational</a></button>
+			</div>
+		</div>
+		
+		<br><br><br><br>
+	</div>
+			
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Q1.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Q2.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Q3.JPG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+			<img id="slide" src="Images/Q4.JPEG" style="width:400px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Q6.JPG" style="width:400px">
+		</div>
+		<!---
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Q6.JPG" style="width:400px">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img id="slide" src="Images/Wedding/W03.JPG" style="width:300px">
+		</div>
+		--->
+	</div>
+
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("mySlides fade");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+	  slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+			slides[slideIndex-1].style.display = "block";  
+			setTimeout(showSlides, 5000); 
+	}
+	</script>
+	
+	<!--Footer-->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section-about">
+				<h3 class="logo-text"> <span></span> About Us</h3>
+				<p>
+					Dream Journey Tours is the best way to</br>experience 
+					tour in wild life safari journey. </br>Join with us!
+				</p>
+			</div>
+			<div class="footer-section-links">
+				<h3>Reach Us</h3>
+				<p>No 2/48,</br>Jethawane Road,</br>Colombo 02</p>
+			</div>
+			<div class = "Contact-Us">
+				<h3>Contact Us</h3>
+				<p>Dreamergraphy@gmail.lk</br>0779945268 - Pasindu</br>0714593628 - Navodhya</p>
+			</div>
+			<div class = "Barcode">
+				<image src = "Images/barcode.JPG" alt = "Barcode Image" width= "80" height= "80">
+			</div>
+			<div class = "Social">
+				<a href = "https://www.facebook.com/" >
+					<image src ="Images/fb.JPG" class = "facebook" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.twitter.com/">
+					<image src ="Images/twitter.JPG" class = "twitter" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.instagram.com/">
+					<image src ="Images/inster.JPG" class = "instagram" width= "60" height= "60";>
+				</a>
+				<a href = "https://www.youtube.com/">
+					<image src ="Images/youtube.JPG" class = "youtube" width= "60" height= "60";>
+				</a>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>
